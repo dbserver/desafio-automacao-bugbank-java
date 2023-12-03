@@ -69,7 +69,7 @@ Validar o registro de uma nova conta de usuário através de uma tentativa de ac
 #### Resultados Esperados:
 
 - Após o registro, uma mensagem de "criada com sucesso" deve ser exibida
-- Após o acesso, uma tela de gestão da conta deve ser exibida contendo um parágrafo de "Saldo em conta"
+- Após o acesso, uma tela de gestão da conta deve ser exibida contendo um elemento de "Saldo em conta"
 
 #### Pós-Condições:
 
