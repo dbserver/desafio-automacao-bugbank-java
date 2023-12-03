@@ -11,7 +11,7 @@ A aplicação web [BugBank](https://bugbank.netlify.app) simula um módulo finan
 - [Git](https://git-scm.com/downloads)
 
 > [!NOTE]
-> Em ambientes Windows, confirmar também o correto funcionamento do Git Bash
+> Em ambientes Windows, confirmar também o correto funcionamento do Git Bash.
 
 ### Obtendo o boilerplate Java
 
@@ -69,7 +69,7 @@ Validar o registro de uma nova conta de usuário através de uma tentativa de ac
 #### Resultados Esperados:
 
 - Após o registro, uma mensagem de "criada com sucesso" deve ser exibida
-- Após o acesso, uma tela de gestão da conta deve ser exibida contendo um elemento de "Saldo em conta"
+- Após o acesso, uma tela de gestão da conta deve ser exibida contendo um elemento de *Saldo em conta*
 
 #### Pós-Condições:
 
@@ -88,7 +88,7 @@ Validar em uma conta de usuário destinatária a entrada de um valor monetário 
 #### Pré-Condições:
 
 - A aplicação web deve estar acessível
-- Devem haver duas contas de usuário já registradas (originária e destinatária), tendo a conta originária um "Saldo em conta" de R$ 1000,00, e a conta destinatária um "Saldo em conta" de R$ 0,00
+- Devem haver duas contas de usuário já registradas (originária e destinatária), tendo a conta originária um *Saldo em conta* de R$ 1000,00, e a conta destinatária um *Saldo em conta* de R$ 0,00
 
 #### Passos:
 
@@ -105,9 +105,9 @@ Validar em uma conta de usuário destinatária a entrada de um valor monetário 
 
 #### Resultados Esperados:
 
-- Após a transferência, a conta de usuário originária deve estar com seu "Saldo em conta" em R$ 500,00
-- Após o acesso à conta de usuário destinatária, a mesma deve estar com seu "Saldo em conta" em R$ 500,00
+- Após a transferência, a conta de usuário originária deve estar com seu *Saldo em conta* em R$ 500,00
+- Após o acesso à conta de usuário destinatária, a mesma deve estar com seu *Saldo em conta* em R$ 500,00
 
 #### Pós-Condições:
 
-- As duas contas de usuário devem estar com valores iguais no seu "Saldo em conta"
+- As duas contas de usuário devem estar com valores iguais no seu *Saldo em conta*
