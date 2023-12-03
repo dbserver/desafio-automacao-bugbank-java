@@ -62,14 +62,14 @@ Validar o registro de uma nova conta de usuário através de uma tentativa de ac
 3. Preencher o formulário de registro com informações válidas do usuário (E-mail, Nome, Senha e Confirmação senha).
 4. Ativar a opção `Criar conta com saldo?`
 5. Clicar no botão `Cadastrar`
-6. Clicar no botão `Fechar` da mensagem de "criada com sucesso"
+6. Clicar no botão `Fechar` da mensagem `criada com sucesso`
 7. Preencher o formulário de acesso com informações válidas da conta do usuário (E-mail e Senha)
 8. Clicar no botão `Acessar`
 
 #### Resultados Esperados:
 
-- Após o registro, uma mensagem de "criada com sucesso" deve ser exibida
-- Após o acesso, uma tela de gestão da conta deve ser exibida contendo um elemento de *Saldo em conta*
+- Após o registro, uma mensagem `criada com sucesso` deve ser exibida
+- Após o acesso, uma tela de gestão da conta deve ser exibida contendo um elemento *Saldo em conta*
 
 #### Pós-Condições:
 
@@ -98,16 +98,16 @@ Validar em uma conta de usuário destinatária a entrada de um valor monetário 
 4. Clicar no botão `Transferência`
 5. Preencher o formulário de transferência com informações válidas para execução da transferência (Número da conta de usuário destinatária, Dígito da conta de usuário destinatária, Valor e Descrição) - O valor deve ser de R$ 500,00
 6. Clicar no botão `Transferir agora`
-7. Clicar no botão `Fechar` da mensagem de "realizada com sucesso"
+7. Clicar no botão `Fechar` da mensagem `realizada com sucesso`
 8. Clicar no botão `Sair`
 9. Preencher o formulário de acesso com informações válidas da conta de usuário destinatária (E-mail e Senha)
 10. Clicar no botão `Acessar`
 
 #### Resultados Esperados:
 
-- Após a transferência, a conta de usuário originária deve estar com seu *Saldo em conta* em R$ 500,00
-- Após o acesso à conta de usuário destinatária, a mesma deve estar com seu *Saldo em conta* em R$ 500,00
+- Após a transferência, a conta de usuário originária deve estar com *Saldo em conta* de R$ 500,00
+- Após o acesso à conta de usuário destinatária, ela deve estar com *Saldo em conta* de R$ 500,00
 
 #### Pós-Condições:
 
-- As duas contas de usuário devem estar com valores iguais no seu *Saldo em conta*
+- As duas contas de usuário devem estar com valores iguais de *Saldo em conta*
