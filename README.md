@@ -4,6 +4,10 @@
 
 A aplicação web [BugBank](https://bugbank.netlify.app) simula um módulo financeiro, possibilitando registros de contas de usuário que também funcionam como contas bancárias capazes de efetuar transferências de valores monetários para outras contas também registradas.
 
+> [!IMPORTANT]
+> A aplicação não utiliza mecanismos de persistência em servidor (ex.: bancos de dados), somente armazena dados no navegador via [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage).
+> Atente-se que a cada teste executado, uma nova versão do navegador é instanciada (com o Local Storage vazio).
+
 ## Getting started
 
 ### Pré-requisitos

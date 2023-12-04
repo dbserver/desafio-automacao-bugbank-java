@@ -4,7 +4,7 @@ temp_dir_name="temp_$(date +'%Y%m%d%H%M%S')"
 url_boilerplate="https://github.com/dbserver/boilerplate-automacao-web-java.git"
 boilerplate_file_name="boilerplate"
 target_branch="main"
-challenge_description=$'\n'$(grep -A 3 "# Desafio Automação BugBank" "README.md")
+challenge_description=$'\n'$(grep -A 6 "# Desafio Automação BugBank" "README.md")
 challenge_description+=$'\n\n'$(grep -A 100000 "## Desafio" "README.md")
 
 mkdir "$temp_dir_name"
